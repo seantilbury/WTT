@@ -9,7 +9,11 @@
 
  /* == Add your own styles below this line ==
 --------------------------------------------*/
-
+.gallery img { /*frontpage images*/
+	background:#fff!important;
+	box-shadow: none!important;
+	
+}
 .wcps-container  div.wcps-items div.wcps-items-thumb img {height:180px} /*Fix height of front page thumbnails in slider*/
 
 .woocommerce ul.products li.product a img {max-height:180px}
